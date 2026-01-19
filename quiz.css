@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+.quiz-header {
+    background-color: #0055a4;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+/* CONTAINER */
+.quiz-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* IMAGE */
+.quiz-image img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+/* QUESTION */
+.question {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+}
+
+.question:hover {
+    transform: scale(1.01);
+}
+
+/* LIST */
+.question ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question li {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: #eee;
+    transition: background-color 0.3s;
+}
+
+/* HOVER */
+.question li:hover {
+    background-color: #d0e3ff;
+    cursor: pointer;
+}
+
+/* BONNE REPONSE (visible si tu veux les montrer) */
+.good:hover {
+    background-color: #b6f0c1;
+}
+
+/* FOOTER */
+.quiz-footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
